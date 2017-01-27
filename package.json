@@ -1,0 +1,33 @@
+{
+  "name": "truly-vanilla-apollo",
+  "version": "1.0.0",
+  "description": "A Trully vanilla version of apollo client without using any frameworks such as react, angular, meteor etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon graphql/index.js",
+    "server": "node graphql/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alanf718/truly-vanilla-apollo.git"
+  },
+  "dependencies": {
+    "express": "4.14.0",
+    "express-graphql": "0.6.1",
+    "graphql": "0.8.2",
+    "json-server": "0.9.4",
+    "node-random-name": "1.0.1",
+    "superagent": "3.3.2",
+    "uuid": "3.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alanf718/truly-vanilla-apollo/issues"
+  },
+  "homepage": "https://github.com/Alanf718/truly-vanilla-apollo#readme"
+}
