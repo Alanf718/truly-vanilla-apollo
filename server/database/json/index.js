@@ -32,11 +32,3 @@ const jsonPromise = (route) => ({
 });
 
 module.exports = jsonPromise;
-
-// jsonPromise('pokemon').get({id: 1}).then
-// jsonPromise('attack').post({...data}).then
-
-
-// jsonPromise
-//     .then(json => console.log(json))
-//     .catch(err => console.log(err))

@@ -1,8 +1,8 @@
-const ncSchema = require('./schema');
+const ncSchema = require('./schema/index');
 const {graphql} = require('graphql');
 const app = require('express')();
 
-const json = require('./../database/json');
+const json = require('./../database/json/index');
 
 app.use('/graphql', (req, res) => {
     const requestData = req.body;

@@ -1,6 +1,5 @@
 const {GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList} = require('graphql');
 
-
 const ResourceType = new GraphQLObjectType({
     name: 'ResourceType',
 

@@ -1,4 +1,4 @@
-const {GraphQLObjectType, GraphQLString, GraphQLInt} = require('graphql');
+const {GraphQLObjectType, GraphQLString, GraphQLInt, GraphQLList} = require('graphql');
 const uuid = require('uuid/v1');
 const random_name = require('node-random-name');
 
@@ -19,17 +19,37 @@ const PersonType = new GraphQLObjectType({
 });
 
 const PersonQuery = {
+    type: new GraphQLList(PersonType),
+    description: 'Long live the people!',
+    args: {
+        name: {
+            type: GraphQLString
+        }
+    },
+    resolve: (obj, args, { json }) => {
+        let query = {};
+        if(args.name) {
+            query = {name: args.name};
+        }
+        return json('people').get(query).then(results => {
+            return results;
+        });
+    }
 };
 
 const PersonMutation = {
     type: PersonType,
-    args: {
-        input: { type: GraphQLInt }
-    },
     resolve: (obj, args, { json }) => {
         const input = {id: uuid(),
+            name: random_name(),
             age: Math.floor(Math.random()*88) + 13,
-            name: random_name()}
+            intelligence: Math.floor(Math.random()*10) + 1,
+            strength: Math.floor(Math.random()*10) + 1,
+            charisma: Math.floor(Math.random()*10) + 1,
+            worth: Math.floor(Math.random()*1000000) + 1
+        };
+
+        console.log(input);
         json('people').post(input);
         // just return the info you inserted, ideally we would just be
         // returning the output from json as return json('pokemon').post(....
