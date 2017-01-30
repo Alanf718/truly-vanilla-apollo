@@ -14,7 +14,9 @@ const PersonType = new GraphQLObjectType({
         charisma: { type: GraphQLInt },
         worth: { type: GraphQLInt },
         wants: { type: GraphQLString },
-        hates: { type: GraphQLString }
+        hates: { type: GraphQLString },
+        x: { type: GraphQLInt },
+        y: { type: GraphQLInt }
     }
 });
 
@@ -46,7 +48,9 @@ const PersonMutation = {
             intelligence: Math.floor(Math.random()*10) + 1,
             strength: Math.floor(Math.random()*10) + 1,
             charisma: Math.floor(Math.random()*10) + 1,
-            worth: Math.floor(Math.random()*1000000) + 1
+            worth: Math.floor(Math.random()*1000000) + 1,
+            x: Math.floor(Math.random()*10),
+            y: Math.floor(Math.random()*10)
         };
 
         console.log(input);

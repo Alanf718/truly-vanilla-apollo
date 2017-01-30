@@ -1,94 +1,125 @@
 {
   "people": [
     {
-      "id": "f806aac0-e536-11e6-bb4f-f5775124c347",
-      "name": "Darren Gardy",
-      "age": 53,
-      "intelligence": 2,
+      "id": "225bf090-e67d-11e6-9819-17d054fb49a4",
+      "name": "Kirstie Borchard",
+      "age": 16,
+      "intelligence": 9,
       "strength": 10,
+      "charisma": 10,
+      "worth": 82494,
+      "x": 1,
+      "y": 2
+    },
+    {
+      "id": "2331de30-e67d-11e6-9819-17d054fb49a4",
+      "name": "Mariana Stimpert",
+      "age": 76,
+      "intelligence": 7,
+      "strength": 1,
       "charisma": 3,
-      "worth": 502118
+      "worth": 524647,
+      "x": 9,
+      "y": 7
     },
     {
-      "id": "f8f2b870-e536-11e6-8cac-1b57fa36cfc7",
-      "name": "Rafael Casserly",
-      "age": 27,
-      "intelligence": 10,
-      "strength": 2,
-      "charisma": 9,
-      "worth": 164508
+      "id": "2380e890-e67d-11e6-9819-17d054fb49a4",
+      "name": "Bettina Niskala",
+      "age": 78,
+      "intelligence": 8,
+      "strength": 10,
+      "charisma": 2,
+      "worth": 641371,
+      "x": 8,
+      "y": 2
     },
     {
-      "id": "427bfcd0-e538-11e6-bb4d-0daaf9d14ada",
-      "name": "Inger Riessen",
-      "age": 23,
+      "id": "23c82ac0-e67d-11e6-9819-17d054fb49a4",
+      "name": "Torrie Lippert",
+      "age": 55,
+      "intelligence": 7,
+      "strength": 1,
+      "charisma": 6,
+      "worth": 156936,
+      "x": 3,
+      "y": 9
+    },
+    {
+      "id": "a7744380-e69c-11e6-b604-cd3dcc670719",
+      "name": "Dottie Devich",
+      "age": 36,
       "intelligence": 1,
       "strength": 3,
-      "charisma": 8,
-      "worth": 771346
+      "charisma": 5,
+      "worth": 914016,
+      "x": 5,
+      "y": 0
     },
     {
-      "id": "4598a620-e538-11e6-8de3-19a43a85173d",
-      "name": "Kizzie Mardirossian",
-      "age": 63,
-      "intelligence": 5,
-      "strength": 10,
-      "charisma": 8,
-      "worth": 995450
+      "id": "d9b3cb50-e6a5-11e6-b604-cd3dcc670719",
+      "name": "Madalene Coss",
+      "age": 95,
+      "intelligence": 4,
+      "strength": 4,
+      "charisma": 7,
+      "worth": 270614,
+      "x": 9,
+      "y": 6
     },
     {
-      "id": "49717380-e538-11e6-8210-a9ff8e74b89d",
-      "name": "Olin Oceguera",
-      "age": 91,
+      "id": "ec8ee980-e6a5-11e6-b604-cd3dcc670719",
+      "name": "Bulah Villada",
+      "age": 36,
       "intelligence": 10,
-      "strength": 9,
-      "charisma": 9,
-      "worth": 68226
-    },
-    {
-      "id": "4c151c40-e538-11e6-ba8b-0b9765b0d9b7",
-      "name": "Charlott Hengl",
-      "age": 40,
-      "intelligence": 3,
-      "strength": 2,
-      "charisma": 6,
-      "worth": 963875
-    },
-    {
-      "id": "5f7cd0c0-e53d-11e6-a221-3df03e201227",
-      "name": "Frank Distad",
-      "age": 92,
-      "intelligence": 5,
-      "strength": 2,
+      "strength": 3,
       "charisma": 10,
-      "worth": 839783
+      "worth": 595656,
+      "x": 7,
+      "y": 0
     },
     {
-      "id": "60deaab0-e53d-11e6-8b5f-db21bab0c081",
-      "name": "Alane Kamna",
-      "age": 35,
-      "intelligence": 6,
+      "id": "fa6e6530-e6a5-11e6-b604-cd3dcc670719",
+      "name": "Kali Wolfsberger",
+      "age": 95,
+      "intelligence": 4,
+      "strength": 2,
+      "charisma": 9,
+      "worth": 456512,
+      "x": 4,
+      "y": 4
+    },
+    {
+      "id": "0481bdb0-e6a6-11e6-b604-cd3dcc670719",
+      "name": "Shelly Remmers",
+      "age": 92,
+      "intelligence": 1,
       "strength": 8,
       "charisma": 4,
-      "worth": 878035
+      "worth": 594745,
+      "x": 6,
+      "y": 1
     },
     {
-      "id": "6175e1a0-e53d-11e6-96ad-811c60ac5427",
-      "name": "Bud Langarica",
-      "age": 96,
-      "intelligence": 7,
-      "strength": 6,
-      "charisma": 7,
-      "worth": 537450
-    },
-    {
-      "id": "620e2a00-e53d-11e6-9499-d933f65c6539",
-      "name": "Latia Thiry",
-      "age": 23,
-      "intelligence": 2,
+      "id": "04f3e070-e6a6-11e6-b604-cd3dcc670719",
+      "name": "Robbi Hallenbeck",
+      "age": 54,
+      "intelligence": 3,
       "strength": 8,
-      "charisma": 7,
-      "worth": 541311
+      "charisma": 4,
+      "worth": 138244,
+      "x": 8,
+      "y": 7
+    },
+    {
+      "id": "3c6d3b50-e6a6-11e6-b604-cd3dcc670719",
+      "name": "Harrison Caneza",
+      "age": 98,
+      "intelligence": 10,
+      "strength": 1,
+      "charisma": 2,
+      "worth": 530089,
+      "x": 2,
+      "y": 6
     }
   ],
   "resources": [

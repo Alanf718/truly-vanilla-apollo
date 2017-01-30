@@ -1,14 +1,16 @@
 const {GraphQLSchema, GraphQLObjectType, GraphQLInt, GraphQLList} = require('graphql');
 
-const Person = require('./queries/person/index');
-const Resource = require('./queries/resource/index');
+const Person = require('./queries/person');
+const Resource = require('./queries/resource');
+const Position = require('./queries/position');
 
 const RootQueryType = new GraphQLObjectType({
     name: 'RootQueryType',
 
     fields: {
         people: Person.Query,
-        resource: Resource.Query
+        resource: Resource.Query,
+        position: Position.Query
     }
 });
 
